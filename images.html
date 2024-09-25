@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Images with Titles</title>
+    <style>
+        /* Style for the images and titles */
+        .image-container {
+            position: relative; /* Position relative for absolute child elements */
+            display: inline-block; /* Allows the container to wrap around the image */
+            margin: 20px; /* Space around each image */
+        }
+
+        img {
+            display: block; /* Block display to remove inline spacing */
+            width: 200px; /* Set a fixed width for consistency */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        /* Style for the titles */
+        .title {
+            position: absolute; /* Absolute positioning */
+            top: 0; /* Align to the top */
+            left: 0; /* Align to the left */
+            font-size: 16px; /* Adjust font size */
+            color: #2C3E50; /* Change font color */
+            background-color: rgba(255, 255, 255, 0.7); /* Light background for readability */
+            padding: 5px; /* Padding around the text */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Images with Titles</h1>
+
+    <!-- Image 1: Pay through cryptocurrency -->
+    <div class="image-container">
+        <div class="title">Pay through Cryptocurrency</div>
+        <img src="image1.jpg" alt="Pay through Cryptocurrency">
+    </div>
+
+    <br><br> <!-- Two line breaks -->
+
+    <!-- Image 2: Credits transfer from Sophia learning -->
+    <div class="image-container">
+        <div class="title">Credits Transfer from Sophia Learning</div>
+        <img src="image2.jpg" alt="Credits Transfer from Sophia Learning">
+    </div>
+
+    <br><br> <!-- Two line breaks -->
+
+    <!-- Image 3: Affordable online -->
+    <div class="image-container">
+        <div class="title">Affordable Online</div>
+        <img src="image3.jpg" alt="Affordable Online">
+    </div>
+
+    <br><br> <!-- Two line breaks -->
+
+    <!-- Image 4: UoPeople logo -->
+    <div class="image-container">
+        <div class="title">UoPeople Logo</div>
+        <img src="image4.jpg" alt="UoPeople Logo">
+    </div>
+
+    <br><br> <!-- Two line breaks -->
+
+    <!-- Image 5: UoPeople shirt -->
+    <div class="image-container">
+        <div class="title">UoPeople Shirt</div>
+        <img src="image5.jpg" alt="UoPeople Shirt">
+    </div>
+
+    <!-- Back to Main Page link -->
+    <p><a href="index.html">Back to Main Page</a></p>
+
+</body>
+</html>

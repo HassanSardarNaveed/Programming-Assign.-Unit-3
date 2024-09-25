@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Prices Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        th {
+            text-align: center;
+        }
+        td:first-child {
+            text-align: left;
+        }
+        td {
+            text-align: center;
+        }
+        .header-row {
+            background-color: #f2f2f2; /* Light gray background for the header row */
+        }
+    </style>
+</head>
+<body>
+    <h1>Stock Prices</h1>
+    <table>
+        <tr class="header-row">
+             <td colspan="6" style="font-weight: bold; text-align: center; font-size: 28px; font-style: italic;">My tech stock picks</td> <!-- Center aligned heading with increased font size and italic -->
+        </tr>
+        <tr>
+            <th>Company</th>
+            <th>Symbol</th>
+            <th>Last Price</th>
+            <th>52wk High</th>
+            <th>52wk Low</th>
+            <th>PE Ratio</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>AAPL</td>
+            <td>$150.00</td>
+            <td>$180.00</td>
+            <td>$120.00</td>
+            <td>28.34</td>
+        </tr>
+        <tr>
+            <td>Microsoft</td>
+            <td>MSFT</td>
+            <td>$280.00</td>
+            <td>$300.00</td>
+            <td>$250.00</td>
+            <td>32.10</td>
+        </tr>
+        <tr>
+            <td>Google</td>
+            <td>GOOG</td>
+            <td>$2700.00</td>
+            <td>$2900.00</td>
+            <td>$2400.00</td>
+            <td>30.25</td>
+        </tr>
+        <tr>
+            <td>Amazon</td>
+            <td>AMZN</td>
+            <td>$3400.00</td>
+            <td>$3700.00</td>
+            <td>$3200.00</td>
+            <td>60.50</td>
+        </tr>
+        <tr>
+            <td>Facebook</td>
+            <td>FB</td>
+            <td>$350.00</td>
+            <td>$400.00</td>
+            <td>$300.00</td>
+            <td>25.45</td>
+        </tr>
+    </table>
+</body>
+</html>
